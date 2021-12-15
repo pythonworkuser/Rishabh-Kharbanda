@@ -1,0 +1,256 @@
+body {
+    background-size: 100%;
+    padding: 20px;
+    background-color: lightcyan;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: rgb(147, 151, 153);
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 800%;
+    font-family: Allison;
+    font-style: italic;
+    text-indent: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h1 {
+    color: #69e9e9;
+}
+
+h2 {
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h2_color {
+    color: #11999E;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #11999E;
+
+}
+
+.top_cloud {
+    background-size: 100%;
+    position: absolute;
+    size:unset;
+    left: 70%;
+    top: 20%;
+    width: auto;
+    height: auto;
+
+}
+
+.bottom_cloud {
+    background-size: 100%;
+    position: absolute;
+    size:unset;
+    left: 20%;
+    top: 30%;
+    width: auto;
+    height: auto;
+}
+
+.mount:hover {
+    box-shadow: 5px black;
+    height: 100px;
+    position: fixed;
+    left: 30%;
+    width: auto;
+    height: auto;
+
+}
+
+
+.back_g {
+    background-size: 150%;
+    background-repeat:repeat-x;
+    background-position: 150%;
+    background-color: rgba(35, 141, 141, 0.876);
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    position: static;
+    display: block;
+}
+
+
+hr {
+    border-style: dotted;
+    border-color: khaki;
+    border-width: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.header {
+    display: block;
+    background-size: 100%;
+    text-align: center;
+}
+
+.content {
+    font-size: 100%;
+    display: block;
+    margin: 0%;
+}
+
+.contact {
+    font-size: 100%;
+    margin-bottom: 2%;
+    position: absolute;
+    right: 13.5%;
+
+}
+
+.btn {
+    background-color: #11999E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.about {
+    font-size: 100%;
+    margin-bottom: 2%;
+    position: absolute;
+    right: 22%;
+}
+
+.images {
+    font-size: 100%;
+    margin-bottom: 2%;
+    position: absolute;
+    right: 6.4%;
+}
+
+.middle-container {
+    text-align: center;
+    position: relative;
+}
+
+.bottom-container {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.skill-row {
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.about_details {
+    padding-top: 50px;
+    color: gold;
+    width: 100%;
+    position: relative;
+    background-color: lightcyan;
+    text-align: center;
+    display: block;
+    left: auto;
+}
+
+a {
+    outline: 0px;
+}
+
+.anchor {
+    color: rgb(223, 241, 187);
+    background-size: contain;
+    bottom: 0%;
+    display: block;
+}
+
+input {
+    margin-left: 50px;
+    display: list-item;
+}
+
+.cont_form {
+    position: relative;
+    background-color: rgb(241, 220, 100);
+    width: 300px;
+    top: 100px;
+    text-align: center;
+    margin: auto;
+    border: 20px rgba(35, 141, 141, 0.876) solid;
+    box-shadow: 5px inset rgba(35, 141, 141, 0.876);
+}
+
+.form_img {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(35, 141, 141, 0.876);
+}
+
+.hash_tag {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.footer-link {
+    position: relative;
+    top: px;
+    color: #11999E;
+    text-align: center;
+}
+
+p {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.my_img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    padding: 20px;
+    border-radius: 80%;
+    border-style: double;
+    border-color: #11999E;
+    transition: transform .2s;
+}
+
+.img_box {
+    padding-top: 50px;
+    margin: auto;
+    display: grid;
+}
+
+.my_img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.foot {
+    background-color: #66BFBF;
+    height: 150px;
+    size: 20px;
+}
